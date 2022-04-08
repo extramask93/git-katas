@@ -2,6 +2,9 @@
 
 This kata has no `setup.sh` script. Just read and follow along.
 
+## Downloading and Installing on Ubuntu
+* Run `sudo apt install git`
+
 ## Downloading and Installing on Windows
 
 * Download at [https://git-scm.com/download/win](https://git-scm.com/download/win) (or use [Chocolatey](https://chocolatey.org/))
@@ -52,5 +55,6 @@ More on aliases can be found in the alias kata.
 
   This generates public/private keys named `id_rsa.pub`/`id_rsa`, respectively)
 - The public key `id_rsa.pub` needs to be uploaded to your repo server:
+  - For GitLab, this is in _Preferences_ -> _SSH keys_
   - For GitHub, this is in _Settings_ -> _SSH and GPG keys_
   - For BitBucket server, this is in _Manage Account_ -> _SSH Keys_
